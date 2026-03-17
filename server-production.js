@@ -319,7 +319,7 @@ app.use((err, req, res, next) => {
 });
 
 // Start server
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log('ðŸš€ NEXUS AI Professional Receptionist System LIVE');
     console.log(`ðŸ“± Running on port ${port}`);
     console.log(`ðŸŒ Domain: ${getCurrentDomain()}`);
